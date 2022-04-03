@@ -1,0 +1,19 @@
+<h1 class="text-center">BAR CHART</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <div class="chart">
+        <canvas
+          baseChart
+          [datasets]="chartData"
+          [options]="options"
+          [labels]="labels"
+          [type]="'bar'"
+        >
+        </canvas>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
